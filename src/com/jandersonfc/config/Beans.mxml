@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<swiz:BeanProvider xmlns:mx="http://www.adobe.com/2006/mxml"
+		    xmlns:swiz="http://swiz.swizframework.org"  
+			xmlns:controller="com.jandersonfc.controller.*" 
+			xmlns:event="com.jandersonfc.event.*"  xmlns:view="com.jandersonfc.view.*" 
+			xmlns:delegate="com.jandersonfc.model.delegate.impl.*">	
+	
+	<!-- exemplo de como fica para chamar um RemoteObject -->
+	<swiz:ChannelSetHelper id="myAmfChannel">
+		<swiz:serverPort>8080</swiz:serverPort>
+		<swiz:contextRoot>/ContactService</swiz:contextRoot>
+	</swiz:ChannelSetHelper>
+	
+	<mx:RemoteObject id="contactService" 
+					 destination="ContactService" 
+					 channelSet="{myAmfChannel}"/>
+	
+	<swiz:ServiceHelper id="serviceHelper"/>	
+	
+		<delegate:ContactDelegateFake id="contactDelegate"/>
+		<!--<delegate:ContactDelegate id="contactDelegate"/>-->
+	
+	<controller:ContactController id="contactController"/>
+	
+	<view:ContactPM id="contactPM"/>
+	
+</swiz:BeanProvider>

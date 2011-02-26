@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index>
+	<title>Source of ContactSwiz</title>
+	<nodes>
+		<node label="html-template">
+			<node label="history">
+				<node icon="cssIcon" label="history.css" url="source/html-template/history/history.css.html"/>
+				<node label="history.js" url="source/html-template/history/history.js.txt"/>
+				<node icon="htmlIcon" label="historyFrame.html" url="source/html-template/history/historyFrame.html"/>
+			</node>
+			<node icon="htmlIcon" label="index.template.html" url="source/html-template/index.template.html"/>
+			<node icon="swfIcon" label="playerProductInstall.swf" url="source/html-template/playerProductInstall.swf"/>
+			<node label="swfobject.js" url="source/html-template/swfobject.js.txt"/>
+		</node>
+		<node label="libs">
+			<node label="SwizFramework.swc" url="source/libs/SwizFramework.swc"/>
+		</node>
+		<node label="src">
+			<node icon="packageIcon" label="com.jandersonfc.config" expanded="true">
+				<node icon="mxmlIcon" label="Beans.mxml" url="source/com/jandersonfc/config/Beans.mxml.html"/>
+				<node icon="mxmlIcon" label="swizConfig.mxml" url="source/com/jandersonfc/config/swizConfig.mxml.html"/>
+			</node>
+			<node icon="packageIcon" label="com.jandersonfc.controller" expanded="true">
+				<node icon="actionScriptIcon" label="ContactController.as" url="source/com/jandersonfc/controller/ContactController.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.jandersonfc.event" expanded="true">
+				<node icon="actionScriptIcon" label="ContactEvent.as" url="source/com/jandersonfc/event/ContactEvent.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.jandersonfc.model.delegate" expanded="true">
+				<node icon="actionScriptIcon" label="IContactDelegate.as" url="source/com/jandersonfc/model/delegate/IContactDelegate.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.jandersonfc.model.delegate.impl" expanded="true">
+				<node icon="actionScriptIcon" label="ContactDelegate.as" url="source/com/jandersonfc/model/delegate/impl/ContactDelegate.as.html"/>
+				<node icon="actionScriptIcon" label="ContactDelegateFake.as" url="source/com/jandersonfc/model/delegate/impl/ContactDelegateFake.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.jandersonfc.model.entity" expanded="true">
+				<node icon="actionScriptIcon" label="Contact.as" url="source/com/jandersonfc/model/entity/Contact.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.jandersonfc.view" expanded="true">
+				<node icon="actionScriptIcon" label="ContactPM.as" url="source/com/jandersonfc/view/ContactPM.as.html"/>
+				<node icon="mxmlIcon" label="ContactView.mxml" url="source/com/jandersonfc/view/ContactView.mxml.html"/>
+			</node>
+			<node icon="mxmlAppIcon" selected="true" label="ContactSwiz.mxml" url="source/ContactSwiz.mxml.html"/>
+		</node>
+	</nodes>
+	<zipfile label="Download source (ZIP, 103K)" url="ContactSwiz.zip">
+	</zipfile>
+	<sdklink label="Download Flex SDK" url="http://www.adobe.com/go/flex4_sdk_download">
+	</sdklink>
+</index>

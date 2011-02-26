@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<swiz:Swiz xmlns:swiz="http://swiz.swizframework.org" xmlns:mx="http://www.adobe.com/2006/mxml"
+		   xmlns:config="com.jandersonfc.config.*">
+	
+	<swiz:beanProviders>
+		<config:Beans/>
+	</swiz:beanProviders>
+	
+	<swiz:config>			
+		<swiz:SwizConfig				
+			eventPackages="com.jandersonfc.event"				
+			viewPackages="com.jandersonfc.view"/>
+	</swiz:config>
+	
+</swiz:Swiz>	
+
